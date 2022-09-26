@@ -1,0 +1,14 @@
+ kubectl get nodes
+  418  cd 01-Create-AKS-Cluster
+  419  cd Azure_AKS_Deployment_files/
+  420  cd 01-Create-AKS-Cluster
+  421  ls -lrt
+  422  kubectl apply -f  kube-manifests/
+  423  kubectl get pods
+  424  kubectl logs -f myapp1-deployment-6f6b58f6d7-lzkw6
+  425  kubectl decribe pod myapp1-deployment-6f6b58f6d7-lzkw6
+  426  kubectl describe pod myapp1-deployment-6f6b58f6d7-lzkw6
+  428  kubectl get svc
+  429  kubectl delete -f kube-manifests
+  430  kubectl get svc
+  431  kubectl get deploy
